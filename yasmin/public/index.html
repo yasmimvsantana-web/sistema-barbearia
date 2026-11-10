@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Sistema Barbearia</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Acesso ao Sistema</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required placeholder="admin@barbearia.com">
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" required placeholder="senha123">
+      </div>
+      <button type="submit">Entrar</button>
+      <div id="mensagemErro" class="erro"></div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

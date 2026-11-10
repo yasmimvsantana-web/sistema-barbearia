@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Principal - Barbearia</title>
+  <link rel="stylesheet" href="painel.css">
+</head>
+<body>
+  <header>
+    <h2>Barbearia - Sistema de Gestão</h2>
+    <div>
+      <span id="nomeUsuario">A carregar...</span>
+      <button class="btn btn-danger" id="btnLogout">Sair (Logout)</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <h3>Menu de Gestão</h3>
+    <div class="card-grid">
+      <div class="card">
+        <h4>Clientes</h4>
+        <p>Gerencie e pesquise os clientes cadastrados.</p>
+        <a href="clientes.html" class="btn btn-primary">Aceder</a>
+      </div>
+      <div class="card">
+        <h4>Barbeiros e Serviços</h4>
+        <p>Gestão de profissionais e serviços oferecidos.</p>
+        <a href="barbeiros.html" class="btn btn-success">Aceder</a>
+      </div>
+      <div class="card">
+        <h4>Agendamentos</h4>
+        <p>Consulte a agenda ordenada de atendimentos.</p>
+        <a href="agendamentos.html" class="btn btn-warning">Aceder</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="painel.js"></script>
+</body>
+</html>
